@@ -1,0 +1,45 @@
+body {
+  --white: #fafafa;
+
+  /* background: ; */
+  margin: 0;
+  padding: 0;
+  padding-bottom: 100px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  height: 600px;
+  overflow-x: scroll;
+  padding: 20px 0;
+  flex: 0 0 800px;
+  margin: 0 auto;
+}
+
+::-webkit-scrollbar {
+  height: 8px;
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: red;
+}
+
+::-webkit-scrollbar-corner {
+  background: #fff3;
+}
+
+li {
+  flex: 0 0 800px;
+  background: var(--white);
+  margin: 0 20px 0 0;
+}
+
+li:last-of-type {
+  margin: 0;
+}
+
+.footer-container {
+  margin-top: 10px;
+}
