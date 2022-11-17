@@ -48,13 +48,13 @@ export const ProjectsSroll = () => {
           <li>
             <div className="flex flex-col justify-center items-center font-extrabold text-4xl py-24">
               <img src={InConstruction1} alt="in-construction" />
-              In contruction...
+              In construction...
             </div>
           </li>
           <li>
             <div className="flex flex-col justify-center items-center font-extrabold text-4xl py-24">
               <img src={InConstruction2} alt="in-construction" />
-              In contruction...
+              In construction...
             </div>
           </li>
         </ul>
