@@ -1,12 +1,19 @@
 import React from "react";
+import { Link } from "react-scroll";
 
-// icons
+// logo
+import { LogoGioXdaZ } from "../assets/LogoGioXdaZ";
 
 export const Navbar = () => {
   return (
-    <div className="navbar-container flex justify-center items-center">
-      <div className="navbar bg-base-300">
-        <div className="card-title px-8 font-bold text-4xl">GioXdaZ</div>
+    <div
+      id="nav"
+      className="navbar-container flex justify-center items-center fixed top-0 left-0 right-0 z-10"
+    >
+      <div className="navbar bg-base-300 bg-opacity-75">
+        <div className="mx-auto">
+          <LogoGioXdaZ />
+        </div>
       </div>
     </div>
   );
