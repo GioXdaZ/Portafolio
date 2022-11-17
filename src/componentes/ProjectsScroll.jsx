@@ -2,7 +2,7 @@ import "../App.css";
 import React, { useRef } from "react";
 
 // images
-import Gifstar from "../../public/images/Gifstar.png";
+import Gifstar from "../../public/images/GifStar.png";
 import Pokedex from "../../public/images/Pokedex.png";
 import TerrorFiles from "../../public/images/TerrorFiles.png";
 import InConstruction1 from "../../public/images/working.gif";
