@@ -2,11 +2,11 @@ import "../App.css";
 import React, { useRef } from "react";
 
 // images
-import Gifstar from "../images/Gifstar.png";
-import Pokedex from "../images/Pokedex.png";
-import TerrorFiles from "../images/TerrorFiles.png";
-import InConstruction1 from "../images/working.gif";
-import InConstruction2 from "../images/working2.webp";
+import Gifstar from "../../public/images/Gifstar.png";
+import Pokedex from "../../public/images/Pokedex.png";
+import TerrorFiles from "../../public/images/TerrorFiles.png";
+import InConstruction1 from "../../public/images/working.gif";
+import InConstruction2 from "../../public/images/working2.webp";
 
 export const ProjectsSroll = () => {
   const ref = useRef(null);
