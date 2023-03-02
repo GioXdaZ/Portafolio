@@ -46,7 +46,7 @@ export const Profile = () => {
         </div>
       </div>
 
-      {/* <div className="flex flex-col justify-center items-center">
+      <div className="flex flex-col justify-center items-center">
         <div className="stacks-container flex flex-row gap-20 justify-center items-center py-20">
           <div className="title-stacks flex flex-col gap-4">
             <div className="flex justify-center items-center text-xl font-black">
@@ -63,7 +63,7 @@ export const Profile = () => {
               <p>que me motiva a seguir aprendiendo</p>
               <p>nuevas formas de mejorar.</p>
             </div>
-          </div> 
+          </div>
 
           <div className="flex-stacks flex flex-row gap-4">
             <div className="stacks">
@@ -78,7 +78,7 @@ export const Profile = () => {
             </div>
           </div>
         </div>
-      </div>*/}
+      </div>
 
       <Footer />
     </div>
