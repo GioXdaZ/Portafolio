@@ -72,3 +72,9 @@ li:last-of-type {
   background: rgba(32, 32, 32, 0.568);
   border-radius: 15px;
 }
+
+.bottom-btn {
+  position: fixed;
+  bottom: 0;
+  right: 32px;
+}

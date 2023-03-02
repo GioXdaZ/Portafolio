@@ -16,8 +16,8 @@ export const MainPage = () => {
           spy={true}
           smooth={true}
           offset={50}
-          duration={500}
-          className="hover:text-red-700 hover:scale-150"
+          duration={1000}
+          className="cursor-pointer hover:text-red-700 hover:scale-150"
         >
           Projects
         </LinkRoll>
@@ -26,8 +26,8 @@ export const MainPage = () => {
           spy={true}
           smooth={true}
           offset={50}
-          duration={1000}
-          className="hover:text-red-700 hover:scale-150"
+          duration={2000}
+          className="cursor-pointer hover:text-red-700 hover:scale-150"
         >
           Contact
         </LinkRoll>
